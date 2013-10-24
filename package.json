@@ -1,0 +1,23 @@
+{
+    "name" : "libtap",
+    "version" : "0.0.1",
+    "description" : "Write tap tests in C.",
+    "src": [ "tap.c", "tap.h" ],
+    "repository" : {
+      "type" : "git",
+      "url" : "git://github.com/thlorenz/libtap.git"
+    },
+    "homepage" : "https://github.com/thlorenz/libtap",
+    "dependencies" : {
+    },
+    "keywords": ["tap", "test", "check", "libtap" ] ,
+    "author" : {
+      "name" : "Thorsten Lorenz",
+      "email" : "thlorenz@gmx.de",
+      "url" : "http://thlorenz.com"
+    },
+    "license" : {
+      "type": "MIT",
+      "url": "https://github.com/thlorenz/libtap/blob/master/LICENSE"
+    }
+}
