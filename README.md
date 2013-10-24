@@ -3,6 +3,14 @@ NAME
 
 libtap - Write tests in C
 
+Installation
+============
+
+### As a dependency via [clib](https://github.com/clibs/clib)
+
+    clib install thlorenz/tap.c -o deps/tap
+
+
 SYNOPSIS
 ========
 
