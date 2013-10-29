@@ -10,6 +10,15 @@ Installation
 
     clib install thlorenz/tap.c -o deps/tap
 
+### Use with Auto(make|tools) 
+
+Add the following `Makefile.am` to the directory into which `tap.c` installed:
+
+```
+lib_LTLIBRARIES = libtap.la
+libtap_la_SOURCES = tap.c tap.h
+```
+
 
 SYNOPSIS
 ========
